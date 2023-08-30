@@ -1,4 +1,5 @@
 # Prediction-of-Foreign-Labor-Demand
+# 프로젝트 기간: 2023.09~
 
 ## Project Summary
 
