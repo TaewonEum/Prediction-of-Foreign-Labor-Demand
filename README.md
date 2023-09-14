@@ -56,3 +56,7 @@
 
 - 서울은 농지면적과 농업경영체수 모두 감소하는 추세에 있음
 - 반면 부산은 재배면적은 감소하지만, 농업경영체수는 증가하는 추세를 보임
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/19b8cb07-5571-4e91-bd3d-bfe69daf619b)
+
+서울 부산 두 지역 모두 특정 지역구에 농지 면적이 매우 집중되어 있고, 주요 재배 작물 또한 유사한 부분이 많음
