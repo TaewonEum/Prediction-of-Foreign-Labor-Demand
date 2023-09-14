@@ -61,3 +61,11 @@
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/19b8cb07-5571-4e91-bd3d-bfe69daf619b)
 
 서울 부산 두 지역 모두 특정 지역구에 농지 면적이 매우 집중되어 있고, 주요 재배 작물 또한 유사한 부분이 많음
+
+## 대구 & 인천
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/b903fd42-9536-4f79-bdf9-8c5e0060e1f0)
+
+- 두 광역시 모두 농업 경지는 감소하는 추세를 보이고 있음
+- 대구는 농업 경영체 수는 증가 추세를 보임
+- 인천광역시는 2020년부터 농업경영체 증가 추세를 보이고 있음
