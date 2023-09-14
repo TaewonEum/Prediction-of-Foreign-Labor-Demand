@@ -1,6 +1,6 @@
 # Prediction-of-Foreign-Labor-Demand
 - 프로젝트 기간: 2023.09~
-
+- 활용 도구: Rstudio 기반 분석 진행, 프로젝트 마감 후 동일한 분석 프로세스를 Python 코드로 추가 제공 예정임
 ## Project Summary
 
 프로젝트 기관: 법무부
@@ -48,3 +48,10 @@
 
 - XGBoost, Random foreset 등 알고리즘 고려
 - 최종 필요 인원수 Regression에 의해 산출 예정
+
+## 전국 농작물 재배 현황
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/2a3a74ae-a197-4ed4-8d74-23b1ba34d17e)
+
+전국 농작물 재배 면적은 지속적으로 감소하는 추세를 보이고 있음
+
