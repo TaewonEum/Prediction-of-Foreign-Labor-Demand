@@ -55,3 +55,6 @@
 
 전국 농작물 재배 면적은 지속적으로 감소하는 추세를 보이고 있음
 
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/91b6c125-0001-4e5a-944e-314871dcfb9e)
+
+전국 재배면적 현황을 살펴본 결과, 주요 광역시와 이외의 지역간의 차이가 확연하게 나타나고 있음
