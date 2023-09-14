@@ -52,6 +52,7 @@
 
 # 주요 도시 농작물 재배 현황
 
+## 서울 & 부산
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/a9f8261d-baa2-44d3-8c0d-afbc2a2a7218)
 
 - 서울은 농지면적과 농업경영체수 모두 감소하는 추세에 있음
