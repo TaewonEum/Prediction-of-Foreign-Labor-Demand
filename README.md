@@ -49,35 +49,7 @@
 # 주요 도시 농작물 재배 현황
 
 ## 서울 & 부산
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/a9f8261d-baa2-44d3-8c0d-afbc2a2a7218)
 
-- 서울은 농지면적과 농업경영체수 모두 감소하는 추세에 있음
-- 반면 부산은 재배면적은 감소하지만, 농업경영체수는 증가하는 추세를 보임
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/19b8cb07-5571-4e91-bd3d-bfe69daf619b)
-
-서울 부산 두 지역 모두 특정 지역구에 농지 면적이 매우 집중되어 있고, 주요 재배 작물 또한 유사한 부분이 많음
-
-## 대구 & 인천
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/b903fd42-9536-4f79-bdf9-8c5e0060e1f0)
-
-- 두 광역시 모두 농업 경지는 감소하는 추세를 보이고 있음
-- 대구는 농업 경영체 수는 증가 추세를 보임
-- 인천광역시는 2020년부터 농업경영체 증가 추세를 보이고 있음
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/125b05f1-2186-4a26-b89c-3d26e114a2b0)
-
-- 대구, 인천 또한 특정 지역구에 농지면적이 집중됨
-- 주요 재배 작물도 서울, 부산과 유사한 특성을 보임
-
-## 광주 & 대전
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0567bda5-1c95-4278-a73a-bbd1d94ec344)
-
-- 두 광역시 모두 농지면적은 감소하는 추세임
-- 광주광역시의 경우 농업경영체 변동이 다른 주요 도시에 비해 큰 편
-- 대전광역시는 20년 이후부터 농업 경영체가 증가하는 추세를 보임
 
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/02ef8561-1f8b-4045-9afa-a2fdae4d0aba)
 
