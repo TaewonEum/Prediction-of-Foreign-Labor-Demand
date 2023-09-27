@@ -17,41 +17,12 @@
 ## Data for Analysis
 
 - 지역별 계절 근로자 신청현황, 지역별 농업경영체 현황 등(11개의 Dataset)
-- 분석에 활용할 연구 자료(계절근로자제도 실태분석, 농산물 소득자료집)
-  => 해당 자료를 통해 2020, 2021 코로나로 인한 비정상적인 참여 인원에 대한 분석 진행할 예정
-- 수산업종 데이터(생산량 데이터 추가 제공 받으면 분석 진행 가능)
+- 분석에 활용할 연구 자료(계절근로자제도 실태분석, 농산물 소득자료집) 제공 받음
 
-## Definition of analysis scope
+## Data Analysis Process
 
-- 데이터 정제가 비교적 잘된 농가에 대한 분석 및 모델 구축을 우선적으로 진행
-- 어가에 대해서는 비교적 간단한 분석을 주로 수행
-- 분석에 활용할 재배 품목, 재배 방법 등에 대한 범위 확정 필요-> 실무에 활용할 수 있도록 적절한 범위 선정이 필요함
-- 계절 근로자 참여 인원은 정책에 따른 변화가 큼. 따라서 해당 변수를 중점으로 분석을 진행한다면 왜곡 발생 가능성이 큼(컨설팅 진행하며 협의 필요)
-
-## Analysis Plan
-
-- 주요 분석 내용
-  1. 농어촌 종사자의 감소 및 고령화에 따른 외국인 요청 인원 상관관계 분석
-  2. 재배작물, 면적에 따른 외국인 계절노동자 요청인원 상관관계 분석
-  3. 외국인 배정인원에 유의미한 변수를 도출하여 최종 예측 알고리즘에 적용(Boosting 계열, Tree기반 모델 고려)
-  4. 기타 분석 추후 협의
-
-## 전국 농작물 재배 현황
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/2a3a74ae-a197-4ed4-8d74-23b1ba34d17e)
-
-전국 농작물 재배 면적은 지속적으로 감소하는 추세를 보이고 있음
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/91b6c125-0001-4e5a-944e-314871dcfb9e)
-
-전국 재배면적 현황을 살펴본 결과, 주요 광역시와 이외의 지역간의 차이가 확연하게 나타나고 있음
-
-# 주요 도시 농작물 재배 현황
-
-## 서울 & 부산
-
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/02ef8561-1f8b-4045-9afa-a2fdae4d0aba)
-
-- 광주는 다른 주요도시와는 다르게 관상수, 관엽식물, 기타화훼의 비율이 높음
-- 대전은 다른 주요도시와 비슷한 양상
+- Data cleaning
+- Data Set Construction
+- Derivation of key variables
+- Apply prediction model
+- Result interpretation
