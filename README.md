@@ -29,3 +29,19 @@
 ## Data cleaning & Data Set Construction
 
 제공 받은 데이터를 연도, 시군구, 지자체별로 결합하여 최종 예측 모델에 활용할 수 있는 형태로 구축하는 작업 진행
+
+1번 데이터 정제
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/10614b9f-ba0e-40d1-8a89-c10b6bbb33ff)
+
+- 배정신청인원 특수문자, 결측값=> 0으로 대체 후 컬럼 타입 numeric 변경
+
+- 작물종류 컬럼 56개에서 9개의 카테고리로 값 변경
+
+- 이력여부 컬럼 26개의 카테고리에서 "있음", "없음" 두 가지로 값 변경
+
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/6016b552-0e11-402f-9ed2-3dc59a266016)
+
+최종 분석용 데이터 셋은 위와 같이 연도, 시도, 시군구, 신청 경영체 수, 배정 신청 인원, 작년 신청 이력 비율 6개의 컬럼을 가진 데이터프레임 구축
+
