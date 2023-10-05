@@ -26,7 +26,7 @@
 - Apply prediction model
 - Result interpretation
 
-## Data cleaning & Data Set Construction
+## Data cleaning & Data Set Construction Version 1
 
 제공 받은 데이터를 연도, 시군구, 지자체별로 결합하여 최종 예측 모델에 활용할 수 있는 형태로 구축하는 작업 진행
 
