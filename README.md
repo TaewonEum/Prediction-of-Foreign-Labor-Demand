@@ -54,3 +54,8 @@
 - 데이터 셋 내에 있는 결측값 0으로 모두 대체
 
 - 농업 분야의 데이터 셋만 추출하여 분석 데이터 셋 구축
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/8a250db4-8c20-40bd-ad6b-d44013dd3e6c)
+
+### 3번 데이터 정제
+
