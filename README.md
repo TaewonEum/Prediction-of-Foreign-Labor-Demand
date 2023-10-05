@@ -59,3 +59,29 @@
 
 ### 3번 데이터 정제
 
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/e7016208-2327-43b2-992e-a94fcfdaa838)
+
+- 농업경영체에 참여한 인원들만 추출
+- 계절근로자에 해당하는 MOU, 결혼이민자 참여자 추출
+- 연도, 시도, 시군구별 성실재입국자 합계 컬럼 생성
+- 추가적으로 지자체별 근로자 중 결혼이민자 비율, MOU 근로자 비율 추가 예정임
+
+### 6번 데이터 & 12번 데이터 정제
+
+- 6번 데이터(농업경영체 테이블)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/391dbb2b-1b44-4455-bbe2-e75f7fe4887a)
+
+- 12번 데이터(법무부 허용작물 리스트)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/2d83dfe2-505f-437b-adc4-23ff2132dcff)
+
+- 농업경영체 테이블에서 번호 컬럼에서 (등록)인 업체들만 추출
+- 농업경영체 테이블에서 한 컬럼에 쓰여진 주소 텍스트를 시도와 시군구 두개로 나누어 줌
+- 농업경영체 테이블의 재배품목과 법무부의 적용작물 컬럼을 맵핑하여 허용작물에 해당하는 컬럼들 생성해줌, 컬럼 값들은 경영체 수를 의미
+- 허용 작물별로 재배 면적에 따라 허용 인원 기준이 정해져 있음, 지자체별로 허용 작물 면적당 허용 인원을 구하고 최종적으로 지자체별로 합쳐줌
+  
+### 10번 데이터
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/680d8ac1-fabf-469c-bfa4-662030dae071)
+
+- 2015~2023년 4월까지의 지자체별 내국인 인구와 외국인 인구를 통해 외국인 비율을 산출하여 새로운 컬럼을 생성함
+- 지자체명 중 강서구, 고성군, 남구, 동구, 북구, 서구, 중구 해당 지자체들은 지역명이 중복되기 때문에 구분자가 필요함
