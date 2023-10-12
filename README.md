@@ -26,3 +26,7 @@
 - Data cleaning & Data Set Construction
 - 허용인원 도출 알고리즘 구축
 - 지자체별 미래 배정 필요 인원 예측 모델 구축
+
+## First Step
+
+- 지자체별 농작물재배현황 데이터 셋(36개 테이블) 정제 작업
