@@ -25,10 +25,11 @@
 
 ## Data Analysis Process
 
-- Data cleaning & Data Set Construction
-- EDA 및 통계적 검증
-- 지자체별 미래 배정 필요 인원 예측 모델 구축
-- 데이터 충분성을 만족한 2022년도 신청현황 데이터를 기반으로 계절근로자 배정신청인원 예측 
+- Data cleaning
+- Creating Derived Variables
+- Build Final analysis Data Set
+- EDA
+- build regression Model
 
 ## Data cleaning & Data Set Construction
 
