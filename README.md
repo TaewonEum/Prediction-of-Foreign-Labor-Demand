@@ -38,15 +38,20 @@
 - 중복 컬럼명 변환
 
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
-원본 데이터 셋 컬럼명  
+[원본 데이터 셋 컬럼명]  
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f7ef78e6-3957-461d-8799-05f3a679e3a4)
-변경 후 데이터 셋 컬럼명
+[변경 후 데이터 셋 컬럼명]
 
   
 - 시도, 시군구명 표기 오류 변환
 
-지자체명_시군구 컬럼에서 "담양", "담양군"으로 기입된 시군구 "담양군"으로 일괄 변경  
-지자체명_시군구 컬럼이 "청양군"이며 지자체명_시도 컬럼이 충청북도인 경우 지자체명_시도 "충청남도"로 일괄 변경  
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/56bc17c1-c2ac-4f0c-b3b4-9d94225bafbe)
+지자체명_시군구 컬럼에서 "담양군", "담양" 지역명이 표준화 되어 있지 않음
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/bad44fe0-d7b6-4f92-926c-f7087694772c)
+지자체명 "담양" => "담양군"으로 일괄 변경
+
+
 
 - 농업경영체 컬럼 표준화 작업
 
