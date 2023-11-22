@@ -56,5 +56,5 @@
 ### EDA 및 통계적 검증
 
 - Barplot, Pieplot, Boxplot, histogram을 활용하여 이상치 및 컬럼별 분포 확인
-- 
+- T-test, Kruskal-Wallis 검정을 통한 그룹간 배정신청인원에 통계적 차이 검증
 
