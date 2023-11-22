@@ -1,5 +1,5 @@
 # Prediction-of-Foreign-Labor-Demand
-- 프로젝트 기간: 2023.09~
+- 프로젝트 기간: 2023.09~12(4개월)
 - 활용 도구: Rstudio 기반 분석 진행, 프로젝트 마감 후 동일한 분석 프로세스를 Python 코드로 추가 제공 예정임
 ## Project Summary
 
@@ -36,37 +36,30 @@
 ## Data cleaning
 
 - 중복 컬럼명 변환
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
 [원본 데이터 셋 컬럼명]  
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f7ef78e6-3957-461d-8799-05f3a679e3a4)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
 [변경 후 데이터 셋 컬럼명]
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f7ef78e6-3957-461d-8799-05f3a679e3a4)
+
 
   
 - 시도, 시군구명 표기 오류 변환
 
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/56bc17c1-c2ac-4f0c-b3b4-9d94225bafbe)
 지자체명_시군구 컬럼에서 "담양군", "담양" 지역명이 표준화 되어 있지 않음
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/bad44fe0-d7b6-4f92-926c-f7087694772c)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/56bc17c1-c2ac-4f0c-b3b4-9d94225bafbe)
 지자체명 "담양" => "담양군"으로 일괄 변경
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/c56afec4-3b4d-4756-a14b-ab4a523015f4)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/bad44fe0-d7b6-4f92-926c-f7087694772c)
 지자체명_시군구가 "청양군" 이면서 지자체명_시군구가 "충청북도"인 경우 충청남도로 일괄 변경
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0478d983-efd4-44de-b6d3-f09883543a85)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/c56afec4-3b4d-4756-a14b-ab4a523015f4)
 "청양군" 시도명 "충청남도"로 일괄 변경
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0478d983-efd4-44de-b6d3-f09883543a85)
 
 - 농업경영체 컬럼 표준화 작업
 
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0dcbabaa-ee32-4278-94f1-6fa637b5ba87)
 원본 농업경영체 컬럼에는 10자리 표준에 맞지 않고, 다양한 특수문자가 기입된 경우가 많아 정제 필요함
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/801ce47c-0584-4da5-a27f-fde0be979e52)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0dcbabaa-ee32-4278-94f1-6fa637b5ba87)
 정제후 농업경영체 컬럼
-
-특수문자제거, 공백, 문자형, X-XXX-XXX-XXX 등 형식들을 제거하거나 표준 체계로 일괄 변경  
-모든 농업경영체는 10자리수 번호로 맞춰 일괄 변경  
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/801ce47c-0584-4da5-a27f-fde0be979e52)
 
 - 계절근로 허용 작물 분류 체계 표준화
 
