@@ -37,8 +37,11 @@
 
 - 중복 컬럼명 변환
 
-지자체명=>지자체명_시도(시도 단위 컬럼)  
-지자치명=>지자체명_시군구(시군구 단위 컬럼)  
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
+원본 데이터 셋 컬럼명  
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f7ef78e6-3957-461d-8799-05f3a679e3a4)
+변경 후 데이터 셋 컬럼명
+
   
 - 시도, 시군구명 표기 오류 변환
 
