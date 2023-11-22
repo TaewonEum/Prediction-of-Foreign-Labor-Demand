@@ -36,6 +36,7 @@
 ## Data cleaning
 
 - 중복 컬럼명 변환
+- 
 [원본 데이터 셋 컬럼명]  
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
 [변경 후 데이터 셋 컬럼명]
