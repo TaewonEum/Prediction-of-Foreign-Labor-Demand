@@ -28,7 +28,6 @@
 ## Process
 
 - Data cleaning
-- Creating Derived Variables
 - Build Final analysis Data Set
 - EDA
 - build regression Model
