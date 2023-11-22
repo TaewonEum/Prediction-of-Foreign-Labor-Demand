@@ -51,6 +51,11 @@
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/bad44fe0-d7b6-4f92-926c-f7087694772c)
 지자체명 "담양" => "담양군"으로 일괄 변경
 
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/c56afec4-3b4d-4756-a14b-ab4a523015f4)
+지자체명_시군구가 "청양군" 이면서 지자체명_시군구가 "충청북도"인 경우 충청남도로 일괄 변경
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0478d983-efd4-44de-b6d3-f09883543a85)
+"청양군" 시도명 "충청남도"로 일괄 변경
 
 
 - 농업경영체 컬럼 표준화 작업
