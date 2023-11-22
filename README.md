@@ -57,8 +57,13 @@
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0478d983-efd4-44de-b6d3-f09883543a85)
 "청양군" 시도명 "충청남도"로 일괄 변경
 
-
 - 농업경영체 컬럼 표준화 작업
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0dcbabaa-ee32-4278-94f1-6fa637b5ba87)
+원본 농업경영체 컬럼에는 10자리 표준에 맞지 않고, 다양한 특수문자가 기입된 경우가 많아 정제 필요함
+
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/801ce47c-0584-4da5-a27f-fde0be979e52)
+정제후 농업경영체 컬럼
 
 특수문자제거, 공백, 문자형, X-XXX-XXX-XXX 등 형식들을 제거하거나 표준 체계로 일괄 변경  
 모든 농업경영체는 10자리수 번호로 맞춰 일괄 변경  
