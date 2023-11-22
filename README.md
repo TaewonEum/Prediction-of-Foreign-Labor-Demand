@@ -70,18 +70,13 @@
 표준화 이후 허용작물 종류(법무부 계절근로 허용작물 9종류로 표준화)
 ![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/5f9c593d-43da-4e77-9dd7-54aa3c6c1f5a)
 
+- 분석 시 불필요한 특수문자 및 결측치 대치
 
+구분, 배정신청인원, 지자체추가배정인원, 합계 등 컬럼 결측치 및 특수문자 제거
 
-- 분석 시 불필요한 특수문자 제거
+정제 완료 후 데이터 셋 예시
 
-농업경영체, 작물 종류 컬럼외에 컬럼에서 불필요한 특수 문자 일괄 제거 진행  
-
-- 재배작물별 농지면적에 따른 소농, 중농, 대농 구분 컬럼 추가
-
-재배작물별 농지면적에 따라 소농, 중농, 대농을 구분할 수 있는 컬럼 추가
-
-
-
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/41579d44-2c36-462b-885c-694bc49051cc)
 
 ### 데이터 셋 구축
 
