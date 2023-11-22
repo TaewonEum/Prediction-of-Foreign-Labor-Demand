@@ -64,7 +64,13 @@
 
 - 계절근로 허용 작물 분류 체계 표준화
 
-① 시설원예·특작, ② 버섯, ③ 과수, ④ 인삼, 일반채소, ⑤ 콩나물, 종묘재배, ⑥ 기타원예·특작, ⑦ 곡물, ⑧ 기타 식량작물, ⑨ 곶감 가공 형식에 맞춰 표준화  
+표준화 되어 있지 않은 허용작물 종류
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f294cc52-77e1-4bc6-95d5-5811156c732c)
+
+표준화 이후 허용작물 종류(법무부 계절근로 허용작물 9종류로 표준화)
+![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/5f9c593d-43da-4e77-9dd7-54aa3c6c1f5a)
+
+
 
 - 분석 시 불필요한 특수문자 제거
 
