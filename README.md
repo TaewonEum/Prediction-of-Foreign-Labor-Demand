@@ -34,63 +34,11 @@
 
 ## Data cleaning
 
-- 중복 컬럼명 변환
+- 외국인 계절 근로자의 수요 예측을 위한 통합 데이터 셋 구축 과정
 
-[원본 데이터 셋 컬럼명]  
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/ddb51e01-bc60-4853-948e-7a6bdd137c80)
-[변경 후 데이터 셋 컬럼명]
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f7ef78e6-3957-461d-8799-05f3a679e3a4)
+### 데이터 별 전처리 과정
 
 
-  
-- 시도, 시군구명 표기 오류 변환
-
-지자체명_시군구 컬럼에서 "담양군", "담양" 지역명이 표준화 되어 있지 않음
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/56bc17c1-c2ac-4f0c-b3b4-9d94225bafbe)
-지자체명 "담양" => "담양군"으로 일괄 변경
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/bad44fe0-d7b6-4f92-926c-f7087694772c)
-지자체명_시군구가 "청양군" 이면서 지자체명_시군구가 "충청북도"인 경우 충청남도로 일괄 변경
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/c56afec4-3b4d-4756-a14b-ab4a523015f4)
-"청양군" 시도명 "충청남도"로 일괄 변경
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0478d983-efd4-44de-b6d3-f09883543a85)
-
-- 농업경영체 컬럼 표준화 작업
-
-원본 농업경영체 컬럼에는 10자리 표준에 맞지 않고, 다양한 특수문자가 기입된 경우가 많아 정제 필요함
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/0dcbabaa-ee32-4278-94f1-6fa637b5ba87)
-정제후 농업경영체 컬럼
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/801ce47c-0584-4da5-a27f-fde0be979e52)
-
-- 계절근로 허용 작물 분류 체계 표준화
-
-표준화 되어 있지 않은 허용작물 종류
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/f294cc52-77e1-4bc6-95d5-5811156c732c)
-
-표준화 이후 허용작물 종류(법무부 계절근로 허용작물 9종류로 표준화)
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/5f9c593d-43da-4e77-9dd7-54aa3c6c1f5a)
-
-- 분석 시 불필요한 특수문자 및 결측치 대치
-
-구분, 배정신청인원, 지자체추가배정인원, 합계 등 컬럼 결측치 및 특수문자 제거
-
-정제 완료 후 데이터 셋 예시
-
-![image](https://github.com/eumtaewon/Prediction-of-Foreign-Labor-Demand/assets/104436260/41579d44-2c36-462b-885c-694bc49051cc)
-
-### 데이터 셋 구축
-
-- 농업경영체 등록 번호와 재배품목을 Primary Key로 신청현황, 참여자현황, 농업경영체 등록 등 테이블 Join 
-- 각 시군구별 고령 농업인, 청년 농업인 등 파생변수 생성
-- 최종 데이터 셋 R SQL DB에 저장
-- 최종 데이터 셋 레코드 12,617건, 컬럼 14개의 데이터 셋 구축
-
-- 최종 데이터 셋 테이블 정의서
-
-![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/66016d2d-5782-4f60-bd48-ecaf8f10086d)
 
 
-### EDA 및 통계적 검증
-
-- Barplot, Pieplot, Boxplot, histogram을 활용하여 이상치 및 컬럼별 분포 확인
-- T-test, Kruskal-Wallis 검정을 통한 그룹간 배정신청인원에 통계적 차이 검증
 
