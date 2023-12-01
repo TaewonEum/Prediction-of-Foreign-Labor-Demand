@@ -89,5 +89,15 @@
 ![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/ccb4d1e7-3299-4f16-a43a-bdadb8db7a81)
 
 
+## EDA
+
+- 최종 분석 데이터 셋 활용 EDA(탐색적 자료 분석) 진행하여 새로운 Insight 도출
+
+1) 배정신청인원에 따른 지역별 차이
+
+평균 배정 신청 인원이 5명 이상인 지자체의 경우 대농의 비중이 53%이고, 계절 근로 신청 재배작물의 경우 평균 배정 신청 인원이 적은 지자체 보다 편차가 상대적으로 적음
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/57833ce1-d578-4671-a2a4-cb99b25724e8)
+
 
 
