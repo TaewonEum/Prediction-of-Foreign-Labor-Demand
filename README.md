@@ -105,3 +105,20 @@
 
 ![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/fabffc70-d0c6-42cb-9a63-eeefaf4905cc)
 
+3) 농촌 고령화 가속
+
+2022년도 계절 근로를 신청한 지자체에서 고령농경체 비율이 40%대인 경우는 전체 28.6% 였지만, 2023년도 11.4%로 큰폭으로 감소함 이는 농업경영체 경영주의 고령화가 상당히 빠른 수준으로 진행되는 것을 시사함.
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/c8ffc6f8-d26c-499f-8a3a-b6079e02b835)
+
+4) 배정 신청 인원에 영향을 주는 요인
+
+T-test, Kruskal-Wallis 검정을 통해 배정신청인원에 대한 그룹 변수에 대한 통계적 검정 진행
+
+- 농지면적에 따른 배정신청인원 신청은 유의한 차이가 있음
+- 작물 종류별 배정신청인원 신청은 유의한 차이가 있음
+- 전년도 계절근로 신청 이력에 따른 배정신청인원에 차이는 유의미 함
+
+
+
+
