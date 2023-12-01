@@ -93,11 +93,15 @@
 
 - 최종 분석 데이터 셋 활용 EDA(탐색적 자료 분석) 진행하여 새로운 Insight 도출
 
-1) 배정신청인원에 따른 지역별 차이
+1) 배정신청인원에 따른 지역별 차이_1
 
 평균 배정 신청 인원이 5명 이상인 지자체의 경우 대농의 비중이 53%이고, 계절 근로 신청 재배작물의 경우 평균 배정 신청 인원이 적은 지자체 보다 편차가 상대적으로 적음
 
 ![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/57833ce1-d578-4671-a2a4-cb99b25724e8)
 
+2) 배정신청인원에 따른 지역별 차이_2
 
+평균 배정 신청 인원이 2명 이하인 지자체의 경우 소농의 비중이 45%로 높으며, 주로 시설원예특작, 과수를 주로 재배함
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/fabffc70-d0c6-42cb-9a63-eeefaf4905cc)
 
