@@ -84,9 +84,10 @@
 - 최종 데이터 셋 R SQL DB에 저장
 - 최종 데이터 셋 레코드 12,617건, 컬럼 14개의 데이터 셋 구축
 
-- 최종 데이터 셋 예시
+- 최종 데이터 셋 테이블 정의서
 
-  
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/66016d2d-5782-4f60-bd48-ecaf8f10086d)
+
 
 ### EDA 및 통계적 검증
 
