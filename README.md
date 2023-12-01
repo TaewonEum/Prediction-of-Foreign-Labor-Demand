@@ -27,16 +27,34 @@
 
 ## Process
 
-- Data cleaning
 - Build Final analysis Data Set
 - EDA
 - build regression Model
 
-## Data cleaning
+## Build Final Analysis Data Set
 
 - 외국인 계절 근로자의 수요 예측을 위한 통합 데이터 셋 구축 과정
 
-### 데이터 별 전처리 과정
+1) 데이터 전처리
+
+- 2021~2023년 계절 근로 신청 현황 Dataset
+1-1) 주요 컬럼 결측치, 특수문자, 이상치 등 처리
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/80d03445-9dd5-4ef2-8dd7-3e85811ec459)
+
+1-2) 주요 컬럼 데이터 타입 오류 처리
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/2da62f5b-4445-4a9d-8e31-baf6b3463751)
+
+1-3) 주요 컬럼 단위 표준화
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/0b13886d-6668-4073-80da-43dcb4788ed2)
+
+1-4) 표기 오류 정정
+
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/4d7beb6c-926c-46b6-b98e-e794c609c0ba)
+
+
 
 
 
