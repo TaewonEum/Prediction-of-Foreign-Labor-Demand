@@ -86,7 +86,8 @@
 
 - 최종 분석 데이터 셋
 
-![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/fc14ad71-9293-48a7-9e5b-04767e7eeb06)
+![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/ccb4d1e7-3299-4f16-a43a-bdadb8db7a81)
+
 
 
 
