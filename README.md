@@ -127,6 +127,8 @@ T-test, Kruskal-Wallis 검정을 통해 배정신청인원에 대한 그룹 변�
 
 해당 기본 모델들에 대해 Random-search, Gridsearch, Baysian Optimizer를 활용하여 파라미터 튜닝 진행
 
+최종 예측 모델 정확도 (RMSPE 14%)
+
 최종 예측 결과
 
 ![image](https://github.com/TaewonEum/Prediction-of-Foreign-Labor-Demand/assets/104436260/f76b5e91-6892-4480-ab2b-17b9a43ae21a)
